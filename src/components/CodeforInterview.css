@@ -1,0 +1,21 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Background Animation */
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1, p {
+    animation-fill-mode: both;
+  }
+  
